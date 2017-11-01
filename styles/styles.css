@@ -112,6 +112,37 @@ label:last-child {
   affecting the functionality of the tabs
 */
 
+table, th, td  {
+  border-collapse: collapse;
+  border: 1px solid black;
+} 
+
+ tr:nth-child(odd){
+  background-color: #9fa3a8;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+li {
+  padding: 4px;
+  
+}
+
+dt {
+  padding-left: 10px;
+}
+
+dd { 
+    padding: 4px;
+} 
+
+
 .tab_container section * {
   animation: fadeIn 0.7s ease-in-out;
 }
